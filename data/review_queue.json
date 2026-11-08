@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-11-08T16:17:04.603755+00:00",
+  "items": [
+    {
+      "id": "terafabai-96ff42",
+      "name": "TerafabAI",
+      "description": "TerafabAI — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": null,
+      "github": null,
+      "x": "https://x.com/TerafabAI2026",
+      "contract_address": "0xd738b729b2a51100d01e4302de08c11fa4427777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-09",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "terafabai-212d1c",
+      "name": "TerafabAI",
+      "description": "TerafabAI — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": null,
+      "github": null,
+      "x": "https://x.com/TerafabAI2026",
+      "contract_address": "0xbae277745ff987446af743d50c2bd529112d7777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-09",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "mai-a4efa9",
+      "name": "Mai",
+      "description": "Giggle Ai Mascot — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": "https://giggleacademy.com/zh-Hans",
+      "github": null,
+      "x": "https://x.com/giggleacademy/status/2078649815404015990?s=46",
+      "contract_address": "0x94c4a633309f5e7e521d1b2d2cba67950dedffff",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-09",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "unknown-a5b0e6",
+      "name": "小黑鸭",
+      "description": "小黑鸭 — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": "https://xhslink.cn/o/7MHuXBzpQAb",
+      "github": null,
+      "x": "https://x.com/lifan690/status/2119327846384734428",
+      "contract_address": "0x6f34ad5f19a3baa7d5e2b8282ff0d75a774e7777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-09",
+      "verified": false,
+      "verification": "未核验"
+    }
+  ]
+}

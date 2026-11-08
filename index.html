@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BSC Agent Radar — BNB 链 Agent 项目早期发现</title>
+<meta name="description" content="只做 BNB Smart Chain（56）的 Agent 项目早期发现：有币/无币都收录，链上 5 分钟一轮，其他来源每小时更新。">
+<style>
+:root{--bg:#0b0f14;--card:#121826;--line:#223;--text:#e8edf3;--muted:#93a1b3;--gold:#f0b90b;--green:#22c55e}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+a{color:#7cc4ff}.wrap{max-width:1080px;margin:0 auto;padding:20px}
+header{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center}
+h1{font-size:26px;margin:6px 0}.sub{color:var(--muted);font-size:14px}
+.badge{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:2px 10px;font-size:13px;color:var(--muted)}
+.badge b{color:var(--gold)}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:16px 0}
+.stats{display:flex;gap:18px;flex-wrap:wrap}.stat b{font-size:22px;display:block}.stat span{color:var(--muted);font-size:13px}
+.controls{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}
+input[type=search]{flex:1;min-width:200px;padding:10px 12px;border-radius:8px;border:1px solid var(--line);background:#0e1420;color:var(--text)}
+select,button{padding:10px 12px;border-radius:8px;border:1px solid var(--line);background:#0e1420;color:var(--text);cursor:pointer}
+select.active{border-color:var(--gold)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
+.card h3{margin:0 0 6px;font-size:17px}.card p{margin:6px 0;color:#c6d0dd;font-size:14px}
+.meta{font-size:13px;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+.tag{border:1px solid var(--line);border-radius:999px;padding:1px 8px}
+.tag.has{color:#4ade80;border-color:#14532d}.tag.no{color:#93c5fd;border-color:#1e3a5f}.tag.unk{color:#fbbf24;border-color:#573d05}
+.links{font-size:13px;display:flex;gap:12px;flex-wrap:wrap}
+.addr{font-family:ui-monospace,monospace;font-size:12px;word-break:break-all;color:var(--muted)}
+.empty{color:var(--muted);padding:20px;text-align:center}
+footer{color:var(--muted);font-size:13px;margin:24px 0}
+</style>
+</head>
+<body><div class="wrap">
+<header>
+<div><h1>🛰️ BSC Agent Radar</h1><div class="sub">只做 BNB Smart Chain（Chain ID 56）· 有币 / 无币都收录 · 所有条目默认未核验</div></div>
+<div><span class="badge">区块 <b id="block">—</b></span> <span class="badge">Gas <b id="gas">—</b></span> <span class="badge" id="updated">更新于 —</span></div>
+</header>
+
+<div class="panel"><div class="stats">
+<div class="stat"><b id="c-total">—</b><span>目录总数</span></div>
+<div class="stat"><b id="c-has">—</b><span>有币</span></div>
+<div class="stat"><b id="c-no">—</b><span>无币</span></div>
+<div class="stat"><b id="c-unk">—</b><span>未知</span></div>
+<div class="stat"><b id="c-today">—</b><span>今日新发现</span></div>
+<div class="stat"><b id="c-queue">—</b><span>待复核线索</span></div>
+</div><div class="sub" id="chain-note" style="margin-top:8px">链上扫描：每 5 分钟一轮（Worker）；GitHub / X / 官方：每小时一轮。链上只看币，无币项目靠 GitHub / X / 官方发现。</div></div>
+
+<div class="controls">
+<input type="search" id="q" placeholder="搜索名字、简介、合约地址、来源…" aria-label="搜索">
+<select id="token-filter" aria-label="发币筛选">
+<option value="all">全部：有币 / 无币 / 未知</option>
+<option value="has_token">有币</option>
+<option value="no_token">无币</option>
+<option value="unknown">未知</option>
+</select>
+<button id="clear">清除</button>
+</div>
+<div id="count" class="sub"></div>
+<div class="grid" id="grid"></div>
+<div class="empty" id="empty" hidden>没有匹配的项目。换个关键词，或看看待复核线索。</div>
+
+<footer>数据来源：GitHub API、X API v2、BNB 官方生态、Binance Skills Hub、链上 PairCreated、meme-rush（补充）。不连钱包、不交易。合约地址只在来源明确给出时显示，不编地址、不编价格、不编涨幅。</footer>
+</div>
+<script>
+const RPCS=["https://bsc-dataseed.binance.org/","https://bsc-dataseed1.defibit.io/","https://bsc.publicnode.com"];
+async function rpc(method){
+ for(const u of RPCS){try{const r=await fetch(u,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({jsonrpc:"2.0",method,params:[],id:1})});const j=await r.json();if(j.result)return j.result;}catch(e){}}
+ return null;
+}
+async function refreshChain(){
+ const b=await rpc("eth_blockNumber"); if(b) document.getElementById("block").textContent=parseInt(b,16).toLocaleString();
+ const g=await rpc("eth_gasPrice"); if(g) document.getElementById("gas").textContent=(parseInt(g,16)/1e9).toFixed(2)+" Gwei";
+}
+let CATALOG=[];
+function tokenLabel(t){return t==="has_token"?"有币":t==="no_token"?"无币":"未知";}
+function esc(s){return String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+function render(){
+ const q=(document.getElementById("q").value||"").trim().toLowerCase();
+ const f=document.getElementById("token-filter").value;
+ const words=q?q.split(/\s+/):[];
+ const list=CATALOG.filter(it=>{
+  if(f!=="all"&&it.token_status!==f) return false;
+  if(!words.length) return true;
+  const hay=[it.name,it.description,it.contract_address,it.source,it.github,it.website,it.x].join(" ").toLowerCase();
+  return words.every(w=>hay.includes(w));
+ });
+ document.getElementById("count").textContent=`共 ${list.length} 条（目录 ${CATALOG.length} 条）`;
+ document.getElementById("grid").innerHTML=list.map(it=>`
+ <article class="card"><h3>${esc(it.name)}</h3>
+ <div class="meta"><span class="tag ${it.token_status==="has_token"?"has":it.token_status==="no_token"?"no":"unk"}">${tokenLabel(it.token_status)}</span><span>来源：${esc(it.source)}</span><span>收录：${esc(it.first_seen||"")}</span><span>${esc(it.verified?"已核验":"未核验")}</span></div>
+ <p>${esc(it.description||"暂无简介")}</p>
+ <div class="addr">${it.contract_address?("合约："+esc(it.contract_address)):"合约：无币（未见合约地址）"}</div>
+ <div class="links">${it.website?`<a href="${esc(it.website)}" target="_blank" rel="noopener">官网</a>`:""}${it.github?`<a href="${esc(it.github)}" target="_blank" rel="noopener">GitHub</a>`:""}${it.x?`<a href="${esc(it.x)}" target="_blank" rel="noopener">X</a>`:""}<a href="${esc(it.source_url||it.github||"#")}" target="_blank" rel="noopener">来源</a></div>
+ </article>`).join("");
+ document.getElementById("empty").hidden=list.length>0;
+}
+function syncUrl(){
+ const q=document.getElementById("q").value, f=document.getElementById("token-filter").value;
+ const p=new URLSearchParams(); if(q) p.set("q",q); if(f!=="all") p.set("token",f);
+ history.replaceState(null,"",p.toString()?("?"+p.toString()):location.pathname);
+}
+async function load(){
+ try{
+  const [c,r]=await Promise.all([fetch("data/catalog.json").then(x=>x.json()),fetch("data/review_queue.json").then(x=>x.json()).catch(()=>({items:[]}))]);
+  CATALOG=c.items||[];
+  const today=new Date().toISOString().slice(0,10);
+  document.getElementById("c-total").textContent=CATALOG.length;
+  document.getElementById("c-has").textContent=CATALOG.filter(x=>x.token_status==="has_token").length;
+  document.getElementById("c-no").textContent=CATALOG.filter(x=>x.token_status==="no_token").length;
+  document.getElementById("c-unk").textContent=CATALOG.filter(x=>x.token_status==="unknown").length;
+  document.getElementById("c-today").textContent=CATALOG.filter(x=>x.first_seen===today).length;
+  document.getElementById("c-queue").textContent=(r.items||[]).length;
+  document.getElementById("updated").textContent="更新于 "+(c.generated_at||"—");
+ }catch(e){document.getElementById("grid").innerHTML='<div class="empty">目录加载失败，请稍后刷新。</div>';}
+ const p=new URLSearchParams(location.search);
+ if(p.get("q")) document.getElementById("q").value=p.get("q");
+ if(p.get("token")) document.getElementById("token-filter").value=p.get("token");
+ render();
+}
+document.getElementById("q").addEventListener("input",()=>{render();syncUrl();});
+document.getElementById("token-filter").addEventListener("change",()=>{render();syncUrl();});
+document.getElementById("clear").addEventListener("click",()=>{document.getElementById("q").value="";document.getElementById("token-filter").value="all";render();syncUrl();});
+load(); refreshChain(); setInterval(refreshChain,60000);
+</script>
+</body></html>
