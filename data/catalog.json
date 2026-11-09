@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T21:00:28.391950+00:00",
+  "generated_at": "2026-11-09T01:32:30.535285+00:00",
   "items": [
     {
       "id": "bsc-ia-scan-fb945e",
@@ -985,6 +985,22 @@
       "source_url": "https://github.com/bnb-chain/example-hub/tree/main/python/ai-wallet-reputation-nft",
       "website": null,
       "github": "https://github.com/bnb-chain/example-hub/tree/main/python/ai-wallet-reputation-nft",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-09",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "ibiti-epk-core-306cb6",
+      "name": "ibiti-epk-core",
+      "description": "Secure on-chain vaults for AI agents: per-asset limits, agent sessions with budgets, guardians, panic, emergency cold-wallet evacuation and an automatic Watchtower. Live on BSC Testnet with public proof; not audited yet.",
+      "source": "github",
+      "source_url": "https://github.com/VOVAN1980/ibiti-epk-core",
+      "website": "https://vovan1980.github.io/ibiti-epk-core/",
+      "github": "https://github.com/VOVAN1980/ibiti-epk-core",
       "x": null,
       "contract_address": null,
       "token_status": "unknown",
