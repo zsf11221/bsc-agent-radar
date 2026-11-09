@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T01:32:30.535285+00:00",
+  "generated_at": "2026-11-09T09:29:34.023394+00:00",
   "items": [
     {
       "id": "bsc-ia-scan-fb945e",
@@ -1001,6 +1001,38 @@
       "source_url": "https://github.com/VOVAN1980/ibiti-epk-core",
       "website": "https://vovan1980.github.io/ibiti-epk-core/",
       "github": "https://github.com/VOVAN1980/ibiti-epk-core",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-09",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "veltrix-multi-agent-crypto-baf31a",
+      "name": "veltrix-multi-agent-crypto",
+      "description": "Multi-agent Solana, Base and BSC crypto intelligence and paper trading system",
+      "source": "github",
+      "source_url": "https://github.com/Nexora-Apparel/veltrix-multi-agent-crypto",
+      "website": null,
+      "github": "https://github.com/Nexora-Apparel/veltrix-multi-agent-crypto",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-09",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "moon-forge-f9c46e",
+      "name": "Moon-Forge",
+      "description": "Burn XEN on Base, Optimism, Polygon, BSC or Avalanche and receive XNT on X1. Zero protocol fee on the burn path, recyclable Artifacts (Metaplex Core), on-chain games of chance (18+), AI-agent kit. Open code, recomputable payouts.",
+      "source": "github",
+      "source_url": "https://github.com/xen-moon-forge-protocol/Moon-Forge",
+      "website": "https://xen-moon-forge-protocol.github.io/Moon-Forge/",
+      "github": "https://github.com/xen-moon-forge-protocol/Moon-Forge",
       "x": null,
       "contract_address": null,
       "token_status": "unknown",
