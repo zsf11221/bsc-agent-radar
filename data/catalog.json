@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T09:29:34.023394+00:00",
+  "generated_at": "2026-11-09T20:34:16.053198+00:00",
   "items": [
     {
       "id": "bsc-ia-scan-fb945e",
@@ -1038,6 +1038,38 @@
       "token_status": "unknown",
       "chain": 56,
       "first_seen": "2026-11-09",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "altana-sdk-c228a9",
+      "name": "altana-sdk",
+      "description": "Non-custodial agentic wallet with onchain session key delegation. TypeScript SDK, MCP server, and x402 payments for AI agents on BNB Chain, Ethereum, and Base.",
+      "source": "github",
+      "source_url": "https://github.com/altananetwork/altana-sdk",
+      "website": "https://docs.altana.network/",
+      "github": "https://github.com/altananetwork/altana-sdk",
+      "x": null,
+      "contract_address": null,
+      "token_status": "no_token",
+      "chain": 56,
+      "first_seen": "2026-11-10",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "bsc-agentic-toolkit-13835b",
+      "name": "bsc-agentic-toolkit",
+      "description": "Open-source security audit, telemetry, and autonomous execution toolchain for smart contracts on BNB Smart Chain.",
+      "source": "github",
+      "source_url": "https://github.com/LoopM1/bsc-agentic-toolkit",
+      "website": null,
+      "github": "https://github.com/LoopM1/bsc-agentic-toolkit",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-10",
       "verified": false,
       "verification": "未核验"
     }

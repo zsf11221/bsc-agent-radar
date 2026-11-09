@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T09:29:34.023394+00:00",
+  "generated_at": "2026-11-09T20:34:16.053198+00:00",
   "items": [
     {
       "id": "terafabai-96ff42",
@@ -238,6 +238,54 @@
       "token_status": "has_token",
       "chain": 56,
       "first_seen": "2026-11-09",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "adto-249d37",
+      "name": "ADTO",
+      "description": "ADTO🔥 — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": "https://dex.coinmarketcap.com/token/bsc/0x9875b2b48fB8e43b1C1441342A2E18d5A6237777",
+      "github": null,
+      "x": "https://x.com/#0x9875b2b48fB8e43b1C1441342A2E18d5A6237777",
+      "contract_address": "0x9875b2b48fb8e43b1c1441342a2e18d5a6237777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-10",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "loopd-86b62c",
+      "name": "LOOPD",
+      "description": "Loopd — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": "https://loopd.cash/",
+      "github": null,
+      "x": "https://x.com/loopdcash/status/2119890161798643714",
+      "contract_address": "0xf3ae52a1379ab2516c7f2b3584582ec65dabffff",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-10",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "nvidiot-500f5f",
+      "name": "NVIDIOT",
+      "description": "NVIDIOT — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": "https://axiom.trade/token/Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh?chain=sol&chains=sol&pulseChains=sol&trackerChains=sol&discoverChains=sol",
+      "github": null,
+      "x": "https://x.com/verge/status/2119847375846228227",
+      "contract_address": "0x6173071cce446cd0fb79894a3b8ca92b48977777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-10",
       "verified": false,
       "verification": "未核验"
     }
