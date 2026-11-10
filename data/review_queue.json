@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T20:34:16.053198+00:00",
+  "generated_at": "2026-11-10T03:19:59.463358+00:00",
   "items": [
     {
       "id": "terafabai-96ff42",
@@ -283,6 +283,22 @@
       "github": null,
       "x": "https://x.com/verge/status/2119847375846228227",
       "contract_address": "0x6173071cce446cd0fb79894a3b8ca92b48977777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-10",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "guardians-9bfe3b",
+      "name": "Guardians",
+      "description": "Invisible Guardians — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": null,
+      "github": null,
+      "x": null,
+      "contract_address": "0x033113c144b3116a5167c7e99a37d42132b77777",
       "token_status": "has_token",
       "chain": 56,
       "first_seen": "2026-11-10",
