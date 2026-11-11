@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T20:22:38.161463+00:00",
+  "generated_at": "2026-11-11T01:08:45.465762+00:00",
   "items": [
     {
       "id": "bsc-ia-scan-fb945e",
@@ -1321,6 +1321,38 @@
       "source_url": "https://github.com/Rainryu1/airdrop-research-skill",
       "website": null,
       "github": "https://github.com/Rainryu1/airdrop-research-skill",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-11",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "binance-agentic-wallet-dashboard-3dd15f",
+      "name": "binance-agentic-wallet-dashboard",
+      "description": "面向 BSC 的 Binance Agentic Wallet 自托管看板｜Self-hosted BSC dashboard for multi-wallet portfolio, guarded swaps, transfers, address book and receive QR.",
+      "source": "github",
+      "source_url": "https://github.com/Ssw7777/binance-agentic-wallet-dashboard",
+      "website": null,
+      "github": "https://github.com/Ssw7777/binance-agentic-wallet-dashboard",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-11",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "bnbtailriskquant-cd422c",
+      "name": "bnbtailriskquant",
+      "description": "EVT tail-risk audit seller agent for BSC (BNB Agent Studio) - winner, BNB Builder Sessions Paris 2026",
+      "source": "github",
+      "source_url": "https://github.com/wh1t3r0s3-12/bnbtailriskquant",
+      "website": null,
+      "github": "https://github.com/wh1t3r0s3-12/bnbtailriskquant",
       "x": null,
       "contract_address": null,
       "token_status": "unknown",

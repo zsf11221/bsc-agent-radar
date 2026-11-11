@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T20:22:38.161463+00:00",
+  "generated_at": "2026-11-11T01:08:45.465762+00:00",
   "items": [
     {
       "id": "terafabai-96ff42",
@@ -459,6 +459,22 @@
       "github": null,
       "x": "https://x.com/danifesto/status/2120009712750281152?a=imGxxrTECew8pYNo0-8&s=20",
       "contract_address": "0xa99257c72f26294d1c95d66d109aca1023877777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-11",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "babycat-3e301c",
+      "name": "BabyCat",
+      "description": "猫咪百日照 — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": "https://v.douyin.com/Era7ol7sDFE/",
+      "github": null,
+      "x": "https://x.com/xiaobudingdev/status/2120186949835358632",
+      "contract_address": "0x77ee90ff878bc7b1c589aae7dfb3ff7b26f77777",
       "token_status": "has_token",
       "chain": 56,
       "first_seen": "2026-11-11",
