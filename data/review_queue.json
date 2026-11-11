@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T09:04:54.105602+00:00",
+  "generated_at": "2026-11-11T17:48:00.738468+00:00",
   "items": [
     {
       "id": "terafabai-96ff42",
@@ -654,6 +654,54 @@
       "token_status": "has_token",
       "chain": 56,
       "first_seen": "2026-11-11",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "recurve-50bf92",
+      "name": "RECURVE",
+      "description": "Recurve — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": "https://recurvemoney.xyz/",
+      "github": null,
+      "x": "https://x.com/RecurveMoney",
+      "contract_address": "0xc7422629da0dbccc11b9678c7625e6c41d927777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-12",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "aikox7-0ce93b",
+      "name": "AikoX7",
+      "description": "Aiko x7 Agent — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": "https://aikox7.xyz/",
+      "github": null,
+      "x": null,
+      "contract_address": "0x90f505ab391b63093f50ef7a73c310582ec37777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-12",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "unknown-61130c",
+      "name": "麻吉",
+      "description": "UNI-DOGGIE — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": "https://mp.weixin.qq.com/s?__biz=Mzg4MTEyNzc4Mg==&mid=2247652172&idx=1&sn=e8c1cb54ffdce60f89b3e3b8ccdbe227&chksm=ce03616f94e3aabc18afe709c7861fe4bd07e59a6498242f501d897a99ed4f5b947d5a61e759&scene=0&xtrack=1#rd",
+      "github": null,
+      "x": "https://x.com/cryptodevovo/status/2118577913281073214?a=vh4tGOUs5_sF4rgh-2o&s=20",
+      "contract_address": "0x0823cd4793e0cf473f3d39699eb7c0f89fd87777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-12",
       "verified": false,
       "verification": "未核验"
     }

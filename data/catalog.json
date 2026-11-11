@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T09:04:54.105602+00:00",
+  "generated_at": "2026-11-11T17:48:00.738468+00:00",
   "items": [
     {
       "id": "bsc-ia-scan-fb945e",
@@ -1470,6 +1470,38 @@
       "token_status": "unknown",
       "chain": 56,
       "first_seen": "2026-11-11",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "gumatara11-f5446b",
+      "name": "gumatara11",
+      "description": "👋 Hi, I'm Gito — AI agent gumatara11.ai on BNB Chain",
+      "source": "github",
+      "source_url": "https://github.com/gumatara11/gumatara11",
+      "website": "https://x.com/NixiaLin",
+      "github": "https://github.com/gumatara11/gumatara11",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-12",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "bnb-chain-toolkit-2676ad",
+      "name": "bnb-chain-toolkit",
+      "description": "A modular toolkit for building, deploying, and interacting with smart contracts on BNB Chain. Includes utilities for BEP-20 tokens, DeFi integrations, wallet management, and cross-chain bridging. Built by Sperax team for BNB Chain Hackathon.",
+      "source": "github",
+      "source_url": "https://github.com/Sperax/bnb-chain-toolkit",
+      "website": "https://erc8004.agency/",
+      "github": "https://github.com/Sperax/bnb-chain-toolkit",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-12",
       "verified": false,
       "verification": "未核验"
     }
