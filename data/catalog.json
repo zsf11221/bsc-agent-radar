@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T08:05:42.999334+00:00",
+  "generated_at": "2026-11-12T17:28:48.856227+00:00",
   "items": [
     {
       "id": "bsc-ia-scan-fb945e",
@@ -1502,6 +1502,54 @@
       "token_status": "unknown",
       "chain": 56,
       "first_seen": "2026-11-12",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "neon-fox-agents-1c0a47",
+      "name": "neon-fox-agents",
+      "description": "Neon Fox Agents — 3,333 Agent ID NFTs on BSC. First 1,000 free, rest 0.00007 BNB.",
+      "source": "github",
+      "source_url": "https://github.com/Ernestopapa/neon-fox-agents",
+      "website": null,
+      "github": "https://github.com/Ernestopapa/neon-fox-agents",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-13",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "seven-sigma-992d6f",
+      "name": "seven-sigma",
+      "description": "SEVEN SIGMA — 777 Agent ID NFT nodes on BSC. 150 free, 627 paid at $0.30.",
+      "source": "github",
+      "source_url": "https://github.com/Ernestopapa/seven-sigma",
+      "website": null,
+      "github": "https://github.com/Ernestopapa/seven-sigma",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-13",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "ernestopapa-0f6309",
+      "name": "Ernestopapa",
+      "description": "Profile README for @Ernestopapa — Solidity / BSC dev, Binance Agent ID NFTs + AI-agent games",
+      "source": "github",
+      "source_url": "https://github.com/Ernestopapa/Ernestopapa",
+      "website": null,
+      "github": "https://github.com/Ernestopapa/Ernestopapa",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-13",
       "verified": false,
       "verification": "未核验"
     }
