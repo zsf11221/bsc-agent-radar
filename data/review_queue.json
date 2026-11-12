@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T00:20:31.631978+00:00",
+  "generated_at": "2026-11-12T08:05:42.999334+00:00",
   "items": [
     {
       "id": "terafabai-96ff42",
@@ -763,6 +763,22 @@
       "github": null,
       "x": "https://x.com/patch_gg",
       "contract_address": "0x8b633d1d3739ef24bcbe1ba64fdb9b8933f8ffff",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-12",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "flap-agent-51fa1e",
+      "name": "flap Agent",
+      "description": "flap Agent — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": null,
+      "github": null,
+      "x": "https://x.com/AiFlapAgent/status/2116123621597036696?a=sbmSPbv-MYfxoSB5r3o&s=20",
+      "contract_address": "0x42d7a9c9a63c76462f578b0b69d0b690438b7777",
       "token_status": "has_token",
       "chain": 56,
       "first_seen": "2026-11-12",
