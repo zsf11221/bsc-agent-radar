@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T17:28:48.856227+00:00",
+  "generated_at": "2026-11-12T23:24:15.430061+00:00",
   "items": [
     {
       "id": "terafabai-96ff42",
@@ -891,6 +891,22 @@
       "github": null,
       "x": "https://x.com/digua1992_/status/2120881279734550558?a=CXeJzfi3ipsWDIhRg7k&s=20",
       "contract_address": "0x0de26e00d62e1dd50bd104b53d7e4661c4777777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-13",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "memechan-503f26",
+      "name": "memechan",
+      "description": "memechan — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": null,
+      "github": null,
+      "x": "https://x.com/plantmumjpg/status/2121017305077604731",
+      "contract_address": "0x550aaa17ea12c9698ccf49b4993d7d2bfba4ffff",
       "token_status": "has_token",
       "chain": 56,
       "first_seen": "2026-11-13",
