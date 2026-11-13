@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T05:58:17.105026+00:00",
+  "generated_at": "2026-11-13T14:28:02.161679+00:00",
   "items": [
     {
       "id": "terafabai-96ff42",
@@ -955,6 +955,22 @@
       "github": null,
       "x": null,
       "contract_address": "0xdc630ac81cc4c02440e2236d8298f12402a87777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-13",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "antropic-1288a8",
+      "name": "Antropic",
+      "description": "Antropic — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": null,
+      "github": null,
+      "x": null,
+      "contract_address": "0x3adc310f0dac1d04145f03cf4420309d1a647777",
       "token_status": "has_token",
       "chain": 56,
       "first_seen": "2026-11-13",

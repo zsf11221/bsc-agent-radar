@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T05:58:17.105026+00:00",
+  "generated_at": "2026-11-13T14:28:02.161679+00:00",
   "items": [
     {
       "id": "bsc-ia-scan-fb945e",
@@ -1644,6 +1644,38 @@
       "x": null,
       "contract_address": null,
       "token_status": "no_token",
+      "chain": 56,
+      "first_seen": "2026-11-13",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "gmgn-skills-1fa1f6",
+      "name": "gmgn-skills",
+      "description": "GMGN OpenAPI skills for AI Agent — query tokens, wallets, and market data, and execute on-chain trades across Solana, BSC, and Base.",
+      "source": "github",
+      "source_url": "https://github.com/GMGNAI/gmgn-skills",
+      "website": "https://gmgn.ai/ai",
+      "github": "https://github.com/GMGNAI/gmgn-skills",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-13",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "toll-mcp-0c8b14",
+      "name": "toll-mcp",
+      "description": "Toll MCP server: coin and product (LARP) checks for AI agents on Robinhood Chain, Solana and BSC (remote, https://t0ll.xyz/mcp)",
+      "source": "github",
+      "source_url": "https://github.com/t0ll-xyz/toll-mcp",
+      "website": "https://t0ll.xyz/agents/mcp",
+      "github": "https://github.com/t0ll-xyz/toll-mcp",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
       "chain": 56,
       "first_seen": "2026-11-13",
       "verified": false,
