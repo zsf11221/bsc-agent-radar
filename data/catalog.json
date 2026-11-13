@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T14:28:02.161679+00:00",
+  "generated_at": "2026-11-13T21:19:56.982724+00:00",
   "items": [
     {
       "id": "bsc-ia-scan-fb945e",
@@ -1678,6 +1678,38 @@
       "token_status": "unknown",
       "chain": 56,
       "first_seen": "2026-11-13",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "bsc-ai-radar-3b87f2",
+      "name": "bsc-ai-radar",
+      "description": "BSC AI Radar — AI-generated radar of BSC AI-agent projects, powered by FLOP testnet inference. Free for first users. Built in public.",
+      "source": "github",
+      "source_url": "https://github.com/Svetlana6543-web/bsc-ai-radar",
+      "website": null,
+      "github": "https://github.com/Svetlana6543-web/bsc-ai-radar",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-14",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "pag-arbitration-226e49",
+      "name": "pag-arbitration",
+      "description": "Simulation study: PAG-inspired discrete mode switching vs continuous blending for a foraging agent under predator threat (BSc dissertation)",
+      "source": "github",
+      "source_url": "https://github.com/TomParkin1/pag-arbitration",
+      "website": null,
+      "github": "https://github.com/TomParkin1/pag-arbitration",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-14",
       "verified": false,
       "verification": "未核验"
     }

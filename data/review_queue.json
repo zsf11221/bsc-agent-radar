@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T14:28:02.161679+00:00",
+  "generated_at": "2026-11-13T21:19:56.982724+00:00",
   "items": [
     {
       "id": "terafabai-96ff42",
@@ -974,6 +974,22 @@
       "token_status": "has_token",
       "chain": 56,
       "first_seen": "2026-11-13",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "aicoin-f0f0fa",
+      "name": "AICoin",
+      "description": "AICoin — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": "https://github.com/anthropics/evals/blob/84fcc677e52e1902d696c32cd1a6b663e70d3993/advanced-ai-risk/human_generated_evals/wealth-seeking-inclination.jsonl#L850",
+      "github": null,
+      "x": "https://x.com/esotericpigeon/status/2119974191260655794",
+      "contract_address": "0x3a315dada3e243bf4487b1a229792f4581084444",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-14",
       "verified": false,
       "verification": "未核验"
     }
