@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T02:07:04.761446+00:00",
+  "generated_at": "2026-11-14T09:58:52.227605+00:00",
   "items": [
     {
       "id": "bsc-ia-scan-fb945e",
@@ -1705,6 +1705,38 @@
       "source_url": "https://github.com/TomParkin1/pag-arbitration",
       "website": null,
       "github": "https://github.com/TomParkin1/pag-arbitration",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-14",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "wallet-platform-skills-0ff2f4",
+      "name": "wallet-platform-skills",
+      "description": "Two skills for the platforms an AI agent actually uses on BNB Chain: the Binance Agentic Wallet CLI and the Cogladius Arena.",
+      "source": "github",
+      "source_url": "https://github.com/jesshqi/wallet-platform-skills",
+      "website": null,
+      "github": "https://github.com/jesshqi/wallet-platform-skills",
+      "x": null,
+      "contract_address": null,
+      "token_status": "no_token",
+      "chain": 56,
+      "first_seen": "2026-11-14",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "onchain-read-toolkit-6833a8",
+      "name": "onchain-read-toolkit",
+      "description": "A minimal Python module for reading public on-chain state on BSC. Built for AI agents.",
+      "source": "github",
+      "source_url": "https://github.com/jesshqi/onchain-read-toolkit",
+      "website": null,
+      "github": "https://github.com/jesshqi/onchain-read-toolkit",
       "x": null,
       "contract_address": null,
       "token_status": "unknown",
