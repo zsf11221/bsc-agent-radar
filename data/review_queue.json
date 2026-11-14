@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T16:32:23.491044+00:00",
+  "generated_at": "2026-11-14T21:14:56.319257+00:00",
   "items": [
     {
       "id": "terafabai-96ff42",
@@ -1115,6 +1115,22 @@
       "github": null,
       "x": "https://x.com/0xJigeshuai/status/2121560273597391140?s=20",
       "contract_address": "0x485a4a96dd48000473c173fcbaf1fca665e24444",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-15",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "aitraffic-47c970",
+      "name": "AITRAFFIC",
+      "description": "AI Traffic Tool — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": null,
+      "github": null,
+      "x": "https://x.com/TMZ/status/2121381364909945327",
+      "contract_address": "0x20e9b544cef7a50acfd326ebf2259125aac6ffff",
       "token_status": "has_token",
       "chain": 56,
       "first_seen": "2026-11-15",
