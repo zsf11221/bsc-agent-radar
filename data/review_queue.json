@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T01:38:48.112097+00:00",
+  "generated_at": "2026-11-15T09:00:35.336808+00:00",
   "items": [
     {
       "id": "terafabai-96ff42",
@@ -1131,6 +1131,22 @@
       "github": null,
       "x": "https://x.com/TMZ/status/2121381364909945327",
       "contract_address": "0x20e9b544cef7a50acfd326ebf2259125aac6ffff",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-15",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "mentat-ffd5ad",
+      "name": "Mentat",
+      "description": "Human SuperIntelligence — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": "https://us.macmillan.com/books/9781250329271/mentatsofdune/",
+      "github": null,
+      "x": "https://x.com/grimmuarr/status/2121880535513358421",
+      "contract_address": "0x585c77c38f2b0aef375a19c66e7ce4f114a87777",
       "token_status": "has_token",
       "chain": 56,
       "first_seen": "2026-11-15",
