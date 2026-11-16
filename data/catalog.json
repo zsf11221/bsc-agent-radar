@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T09:18:17.832915+00:00",
+  "generated_at": "2026-11-16T20:10:40.148562+00:00",
   "items": [
     {
       "id": "bsc-ia-scan-fb945e",
@@ -2430,6 +2430,54 @@
       "token_status": "unknown",
       "chain": 56,
       "first_seen": "2026-11-16",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "bsc-token-safety-scout-6bdd59",
+      "name": "bsc-token-safety-scout",
+      "description": "BSC token-safety scout agent — checks contract verification, pools, and on-chain risk signals, returns GO / CAUTION / BLOCK verdicts.",
+      "source": "github",
+      "source_url": "https://github.com/Badutitem/bsc-token-safety-scout",
+      "website": null,
+      "github": "https://github.com/Badutitem/bsc-token-safety-scout",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-17",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "chaink9-mcp-1c8e72",
+      "name": "chaink9-mcp",
+      "description": "ChainK9 MCP server: honeypot and token trap checks for AI agents on BNB Chain, Ethereum, Base and Arc, paid per call with x402",
+      "source": "github",
+      "source_url": "https://github.com/ChainK9/chaink9-mcp",
+      "website": "https://chaink9.com",
+      "github": "https://github.com/ChainK9/chaink9-mcp",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-17",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "baw-preview-check-3a682b",
+      "name": "baw-preview-check",
+      "description": "Fail-closed verifier for Binance Agentic Wallet contract-call previews — clean_preview() covering all four real preview shapes, proven against real previews.",
+      "source": "github",
+      "source_url": "https://github.com/Scovic-cyber/baw-preview-check",
+      "website": null,
+      "github": "https://github.com/Scovic-cyber/baw-preview-check",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-17",
       "verified": false,
       "verification": "未核验"
     }
