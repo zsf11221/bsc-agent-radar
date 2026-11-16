@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T01:43:32.531507+00:00",
+  "generated_at": "2026-11-16T09:18:17.832915+00:00",
   "items": [
     {
       "id": "terafabai-96ff42",
@@ -1339,6 +1339,22 @@
       "github": null,
       "x": "https://x.com/6551News/status/2122132595383394741",
       "contract_address": "0x248becc0f158c747f50c6ea30c0a614245757777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-16",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "unknown-ce599c",
+      "name": "一直买",
+      "description": "一姐下跌回购策略 — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": null,
+      "github": null,
+      "x": "https://x.com/heyibinance/status/2122225226146783562",
+      "contract_address": "0x14e6e49f851fdec239240f74082394338dff7777",
       "token_status": "has_token",
       "chain": 56,
       "first_seen": "2026-11-16",
