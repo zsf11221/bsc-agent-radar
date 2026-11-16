@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T21:35:27.198150+00:00",
+  "generated_at": "2026-11-16T01:43:32.531507+00:00",
   "items": [
     {
       "id": "terafabai-96ff42",
@@ -1307,6 +1307,38 @@
       "github": null,
       "x": null,
       "contract_address": "0x0c39dd47272c55cf5965ec3bb6d2894410a77777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-16",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "hormos-e08aff",
+      "name": "HORMOS",
+      "description": "Hormos — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": "https://hormos.xyz",
+      "github": null,
+      "x": "https://x.com/hormos_xyz/",
+      "contract_address": "0xa709a358a19517394a27c98b02b18ac77888ffff",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-16",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "clippy-160588",
+      "name": "CLIPPY",
+      "description": "clippy — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": null,
+      "github": null,
+      "x": "https://x.com/6551News/status/2122132595383394741",
+      "contract_address": "0x248becc0f158c747f50c6ea30c0a614245757777",
       "token_status": "has_token",
       "chain": 56,
       "first_seen": "2026-11-16",
