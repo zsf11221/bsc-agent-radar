@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T20:10:40.148562+00:00",
+  "generated_at": "2026-11-17T03:34:28.858439+00:00",
   "items": [
     {
       "id": "terafabai-96ff42",
@@ -1563,6 +1563,22 @@
       "github": null,
       "x": null,
       "contract_address": "0xeaa972d7b16c7b98881c458736a4498495c37777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-17",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "unknown-61835f",
+      "name": "小星芒",
+      "description": "小星芒 — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": null,
+      "github": null,
+      "x": "https://x.com/i/web/status/2122515713990824386",
+      "contract_address": "0xe0226484a6364934f7cedc35e87d25310f4a7777",
       "token_status": "has_token",
       "chain": 56,
       "first_seen": "2026-11-17",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T20:10:40.148562+00:00",
+  "generated_at": "2026-11-17T03:34:28.858439+00:00",
   "items": [
     {
       "id": "bsc-ia-scan-fb945e",
@@ -2473,6 +2473,38 @@
       "source_url": "https://github.com/Scovic-cyber/baw-preview-check",
       "website": null,
       "github": "https://github.com/Scovic-cyber/baw-preview-check",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-17",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "vaultra-agentpay-58137c",
+      "name": "vaultra-agentpay",
+      "description": "AI agent per-call payments on BNB Chain - escrow settlement, on-chain arbitration, 402 challenge flow, provider dashboard",
+      "source": "github",
+      "source_url": "https://github.com/yhemeo613/vaultra-agentpay",
+      "website": null,
+      "github": "https://github.com/yhemeo613/vaultra-agentpay",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-17",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "signguard-17429f",
+      "name": "signguard",
+      "description": "SignGuard — BSC/EVM pre-signing transaction guard (zkVerify Agent Games Wildcard)",
+      "source": "github",
+      "source_url": "https://github.com/Ryukein19/signguard",
+      "website": null,
+      "github": "https://github.com/Ryukein19/signguard",
       "x": null,
       "contract_address": null,
       "token_status": "unknown",
