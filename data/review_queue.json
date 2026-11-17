@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T12:58:05.748699+00:00",
+  "generated_at": "2026-11-17T21:40:52.278949+00:00",
   "items": [
     {
       "id": "terafabai-96ff42",
@@ -1662,6 +1662,38 @@
       "token_status": "has_token",
       "chain": 56,
       "first_seen": "2026-11-17",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "unknown-cc456f",
+      "name": "牛来",
+      "description": "Niulai — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": null,
+      "github": null,
+      "x": "https://x.com/wuxianob/status/2089534384768765975",
+      "contract_address": "0x0b9ec94c4e1da33f6c1791be87a8aae36f7b6666",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-18",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "binance-ai-pro-845a0f",
+      "name": "Binance AI Pro",
+      "description": "Binance AI Pro — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": "https://x.com/heyibinance/status/2112880372518412555",
+      "github": null,
+      "x": "https://x.com/heyibinance/status/2112880372518412555",
+      "contract_address": "0xa71eec78f9e3c6d3dd788a9649c873bd909f7777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-18",
       "verified": false,
       "verification": "未核验"
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T12:58:05.748699+00:00",
+  "generated_at": "2026-11-17T21:40:52.278949+00:00",
   "items": [
     {
       "id": "bsc-ia-scan-fb945e",
@@ -2510,6 +2510,54 @@
       "token_status": "unknown",
       "chain": 56,
       "first_seen": "2026-11-17",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "dextrading-skills-ecbc8a",
+      "name": "dextrading-skills",
+      "description": "Official DexTrading agent skills and MCP server config: copy trading and smart-money data for AI agents on BNB Chain, Solana, Base and more.",
+      "source": "github",
+      "source_url": "https://github.com/harrywalkr/dextrading-skills",
+      "website": null,
+      "github": "https://github.com/harrywalkr/dextrading-skills",
+      "x": null,
+      "contract_address": null,
+      "token_status": "no_token",
+      "chain": 56,
+      "first_seen": "2026-11-18",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "agentgrind-eedc84",
+      "name": "agentgrind",
+      "description": "AgentGrind ($GRIND) — free token claim for Agent ID holders on BSC",
+      "source": "github",
+      "source_url": "https://github.com/kangelon-max/agentgrind",
+      "website": "https://agentgrind-mu.vercel.app",
+      "github": "https://github.com/kangelon-max/agentgrind",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-18",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "open-agentic-web-mint-verifier-44b815",
+      "name": "open-agentic-web-mint-verifier",
+      "description": "Mint Verifier — an open agentic website that checks a BSC contract before you mint. Open Agentic Web Challenge entry.",
+      "source": "github",
+      "source_url": "https://github.com/buahrasa01-hub/open-agentic-web-mint-verifier",
+      "website": null,
+      "github": "https://github.com/buahrasa01-hub/open-agentic-web-mint-verifier",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-18",
       "verified": false,
       "verification": "未核验"
     }
