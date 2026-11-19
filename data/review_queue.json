@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T21:14:52.076202+00:00",
+  "generated_at": "2026-11-19T03:02:23.133607+00:00",
   "items": [
     {
       "id": "terafabai-96ff42",
@@ -1963,6 +1963,38 @@
       "github": null,
       "x": "https://x.com/solana/status/2121986617917272389?a=-o_hLBcCKOZ9oAzF108&s=19",
       "contract_address": "0xd6e84f912a0292c1d63d8db00d60f65fa1dfffff",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-19",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "samite-aa9367",
+      "name": "SAMITE",
+      "description": "Samite — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": null,
+      "github": null,
+      "x": "https://x.com/samitefun",
+      "contract_address": "0x454b3fa8ae0babaf9d2ad0d0eab08a3d98507777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-19",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "unknown-0e071f",
+      "name": "黄仁勋",
+      "description": "黄仁勋 — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": "https://x.com/JensenHuang",
+      "github": null,
+      "x": "https://x.com/JensenHuang",
+      "contract_address": "0x7bcd9cf48bbb116c9399fc903bb33e6124314444",
       "token_status": "has_token",
       "chain": 56,
       "first_seen": "2026-11-19",
