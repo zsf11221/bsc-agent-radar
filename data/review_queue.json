@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T19:50:25.396159+00:00",
+  "generated_at": "2026-11-21T01:15:33.832627+00:00",
   "items": [
     {
       "id": "terafabai-96ff42",
@@ -2491,6 +2491,38 @@
       "github": null,
       "x": null,
       "contract_address": "0xf83c1620080a53a8767344f9d257d87d6fa1ffff",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-21",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "crumb-5d6dc6",
+      "name": "CRUMB",
+      "description": "Midnight Crumb — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": null,
+      "github": null,
+      "x": "https://x.com/hashfomo/status/2123752440080335171",
+      "contract_address": "0x47191d126fe4c94c31318596fbf64b7815e2ffff",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-21",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "gestalt-9d9b62",
+      "name": "Gestalt",
+      "description": "Gestalt — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": "https://v.douyin.com/fGuS3cUlGFE/",
+      "github": null,
+      "x": "https://x.com/hhhhha7rka/status/2123920351960916041?a=QWFOMBjlwmdRSJnE31U&s=20",
+      "contract_address": "0xcaf3a1bfcfbbc1e7afb00f28b3ed1934d0f17777",
       "token_status": "has_token",
       "chain": 56,
       "first_seen": "2026-11-21",

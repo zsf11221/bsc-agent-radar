@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T19:50:25.396159+00:00",
+  "generated_at": "2026-11-21T01:15:33.832627+00:00",
   "items": [
     {
       "id": "bsc-ia-scan-fb945e",
@@ -4089,6 +4089,22 @@
       "source_url": "https://github.com/Azharodan/agentwall",
       "website": null,
       "github": "https://github.com/Azharodan/agentwall",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-21",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "agentallowance-4cabad",
+      "name": "agentallowance",
+      "description": "AgentAllowance - Scan an Agent ID wallet's BSC token approvals, score Hygiene 0-100, revoke risky approvals",
+      "source": "github",
+      "source_url": "https://github.com/vuducdung1308/agentallowance",
+      "website": null,
+      "github": "https://github.com/vuducdung1308/agentallowance",
       "x": null,
       "contract_address": null,
       "token_status": "unknown",
