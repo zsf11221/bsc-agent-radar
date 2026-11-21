@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T09:27:40.912455+00:00",
+  "generated_at": "2026-11-21T17:14:38.913567+00:00",
   "items": [
     {
       "id": "terafabai-96ff42",
@@ -2574,6 +2574,70 @@
       "token_status": "has_token",
       "chain": 56,
       "first_seen": "2026-11-21",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "plonkabot-6661e8",
+      "name": "PLONKABOT",
+      "description": "Plonkabot — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": "https://dex.coinmarketcap.com/token/bsc/0xaAa737ccf4199197122ee4FFc7D5b917F22c7777",
+      "github": null,
+      "x": "https://x.com/#0xaAa737ccf4199197122ee4FFc7D5b917F22c7777",
+      "contract_address": "0xaaa737ccf4199197122ee4ffc7d5b917f22c7777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-22",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "iv-14fd03",
+      "name": "IV",
+      "description": "ApeOnIV — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": "https://axiom.trade/token/7DnBYDuxuAtWa1s9QmptZaRNfDQH6u7gBwiAxQ31pump?chain=sol&chains=sol&pulseChains=sol&trackerChains=sol&discoverChains=sol",
+      "github": null,
+      "x": "https://x.com/i/status/2124186495934497106",
+      "contract_address": "0xac08f2b56b864447c3db61b321028671cecfffff",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-22",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "unknown-d7a429",
+      "name": "蚂蚁股票",
+      "description": "Anthropic交流817394506 — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": null,
+      "github": null,
+      "x": "https://x.com/anthropicai?s=11&t=tE7HPS83p0hkkV2do8zBjw",
+      "contract_address": "0x387c257253ce1acdd88ba712660e30b479437777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-22",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "ant-ed11d2",
+      "name": "ANT人生",
+      "description": "ANT人生 — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": null,
+      "github": null,
+      "x": "https://x.com/anthropicai",
+      "contract_address": "0x0ba70f0d1b50850c779c8e1c88513e6081437777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-22",
       "verified": false,
       "verification": "未核验"
     }

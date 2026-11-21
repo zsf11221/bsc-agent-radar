@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T09:27:40.912455+00:00",
+  "generated_at": "2026-11-21T17:14:38.913567+00:00",
   "items": [
     {
       "id": "bsc-ia-scan-fb945e",
@@ -4174,6 +4174,70 @@
       "token_status": "unknown",
       "chain": 56,
       "first_seen": "2026-11-21",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "tidepool-agent-793206",
+      "name": "Tidepool-Agent",
+      "description": "Tidepool: a multi-chain low-cap crypto token scout. Screens small caps across the top 8 chains (Ethereum, Solana, BNB, Base, Arbitrum, Tron, Avalanche, Polygon) and ranks them on risk hygiene: liquidity, contract safety, holder spread, momentum, wash-trading flags. Stdlib Python, no API keys, with an AI agent skill. Research only. Not advice.",
+      "source": "github",
+      "source_url": "https://github.com/bandit-md/Tidepool-Agent",
+      "website": null,
+      "github": "https://github.com/bandit-md/Tidepool-Agent",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-22",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "jesshqi-54b233",
+      "name": "jesshqi",
+      "description": "Master Skills 1 (jesshqi) & Master Skills 2 (jesshqi2) — the complete skill collections for AI agents: BNB Chain, testnets, airdrops, coding bounties. Free, public, safe to copy.",
+      "source": "github",
+      "source_url": "https://github.com/jesshqi/jesshqi",
+      "website": null,
+      "github": "https://github.com/jesshqi/jesshqi",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-22",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "mintguard-29aa58",
+      "name": "mintguard",
+      "description": "MintGuard — a read-only screening agent for BSC mints (zkVerify Agent Games, Wildcard track)",
+      "source": "github",
+      "source_url": "https://github.com/JustinRzx/mintguard",
+      "website": null,
+      "github": "https://github.com/JustinRzx/mintguard",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-22",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "mintdesk-220fc5",
+      "name": "mintdesk",
+      "description": "MintDesk — Frankenstein BSC mint-triage console for Kiroween 2026. Deterministic contract verification + triage tickets + Kiro Crew watch agent. Read-only, no wallet, no signing.",
+      "source": "github",
+      "source_url": "https://github.com/adenragilnasrulloh/mintdesk",
+      "website": null,
+      "github": "https://github.com/adenragilnasrulloh/mintdesk",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-22",
       "verified": false,
       "verification": "未核验"
     }
