@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T11:04:15.636604+00:00",
+  "generated_at": "2026-11-22T19:17:17.647588+00:00",
   "items": [
     {
       "id": "bsc-ia-scan-fb945e",
@@ -4334,6 +4334,38 @@
       "token_status": "unknown",
       "chain": 56,
       "first_seen": "2026-11-22",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "wickpet-7aba74",
+      "name": "wickpet",
+      "description": "WickPet - an on-chain AI pet for every Agent ID on BNB Chain. Binance Wallet Agent ID Hackathon entry by HTP96.",
+      "source": "github",
+      "source_url": "https://github.com/wickpetagent/wickpet",
+      "website": null,
+      "github": "https://github.com/wickpetagent/wickpet",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-23",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "bsc-dex-exit-0f312b",
+      "name": "bsc-dex-exit",
+      "description": "Selling New Pair flawlessly on Binance Agentic Wallet (BAW) bypass high risk flag by Binance",
+      "source": "github",
+      "source_url": "https://github.com/rizeiki/bsc-dex-exit",
+      "website": null,
+      "github": "https://github.com/rizeiki/bsc-dex-exit",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-23",
       "verified": false,
       "verification": "未核验"
     }
