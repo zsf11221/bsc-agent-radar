@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T22:57:01.663288+00:00",
+  "generated_at": "2026-11-22T02:58:06.470021+00:00",
   "items": [
     {
       "id": "terafabai-96ff42",
@@ -2683,6 +2683,22 @@
       "github": null,
       "x": "https://x.com/Barchart/status/2124175408417386513?a=dE05d2JuKCRPyK1U-JQ&s=19",
       "contract_address": "0x9bf23036ea93b68a9eea8b6e0ebc6a7dc01d7777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-22",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "mcpd-bf0cc7",
+      "name": "MCPD",
+      "description": "MCP Desk — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": "https://mcpdesk.fun",
+      "github": null,
+      "x": "https://x.com/mcpdeskfun",
+      "contract_address": "0xdc279f3eeb230ca611e8916079eceefabcb17777",
       "token_status": "has_token",
       "chain": 56,
       "first_seen": "2026-11-22",
