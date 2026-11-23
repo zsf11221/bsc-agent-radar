@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T00:40:38.415799+00:00",
+  "generated_at": "2026-11-23T08:46:42.870506+00:00",
   "items": [
     {
       "id": "terafabai-96ff42",
@@ -2859,6 +2859,38 @@
       "github": null,
       "x": "https://x.com/PetaIS0L/status/2124568728088011005",
       "contract_address": "0x683de9aee77cd9c189886dc5761d085e07097777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-23",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "ai-7f54fc",
+      "name": "AI",
+      "description": "AI — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": "https://agentidai.xyz/",
+      "github": null,
+      "x": null,
+      "contract_address": "0xe933ede38f5e9cdb222ac99caa2adc4c9b2fffff",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-23",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "house-5268aa",
+      "name": "HOUSE",
+      "description": "HOUSE — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": "https://houseonbsc.com/",
+      "github": null,
+      "x": "CardHouse_bsc",
+      "contract_address": "0xa8aa72fc4e463d6c3d6a663084c57dabaf047777",
       "token_status": "has_token",
       "chain": 56,
       "first_seen": "2026-11-23",
