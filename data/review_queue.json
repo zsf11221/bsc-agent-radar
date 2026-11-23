@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T19:17:17.647588+00:00",
+  "generated_at": "2026-11-23T00:40:38.415799+00:00",
   "items": [
     {
       "id": "terafabai-96ff42",
@@ -2827,6 +2827,38 @@
       "github": null,
       "x": "https://x.com/PetaIS0L/status/2124568728088011005",
       "contract_address": "0x4226714c945e18d1bc40d465bb78e68981437777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-23",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "unknown-180314",
+      "name": "近藤あい",
+      "description": "Ai Kondo — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": "https://ppih.co.jp/news/pdf/1119kondoai.pdf",
+      "github": null,
+      "x": "https://x.com/PetaIS0L/status/2124568728088011005",
+      "contract_address": "0x5708e3581c8858985cba65a00e6b225dc0d77777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-23",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "unknown-41493c",
+      "name": "近藤あい",
+      "description": "Ai Kondo — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": "https://ppih.co.jp/news/pdf/1119kondoai.pdf",
+      "github": null,
+      "x": "https://x.com/PetaIS0L/status/2124568728088011005",
+      "contract_address": "0x683de9aee77cd9c189886dc5761d085e07097777",
       "token_status": "has_token",
       "chain": 56,
       "first_seen": "2026-11-23",
