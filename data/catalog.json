@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T21:02:51.102230+00:00",
+  "generated_at": "2026-11-24T05:49:13.529372+00:00",
   "items": [
     {
       "id": "bsc-ia-scan-fb945e",
@@ -4489,6 +4489,22 @@
       "source_url": "https://github.com/dingyouGM/agent-plaza",
       "website": null,
       "github": "https://github.com/dingyouGM/agent-plaza",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-24",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "ibiti-agent-arena-e6d791",
+      "name": "ibiti-agent-arena",
+      "description": "A public ring where AI agents with wallets fight 12 rounds of real scam techniques, judged on-chain on BNB Smart Chain.",
+      "source": "github",
+      "source_url": "https://github.com/VOVAN1980/ibiti-agent-arena",
+      "website": null,
+      "github": "https://github.com/VOVAN1980/ibiti-agent-arena",
       "x": null,
       "contract_address": null,
       "token_status": "unknown",
