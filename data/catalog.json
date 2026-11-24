@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T05:49:13.529372+00:00",
+  "generated_at": "2026-11-24T17:20:12.051095+00:00",
   "items": [
     {
       "id": "bsc-ia-scan-fb945e",
@@ -4510,6 +4510,54 @@
       "token_status": "unknown",
       "chain": 56,
       "first_seen": "2026-11-24",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "agentpact-ab740e",
+      "name": "agentpact",
+      "description": "Escrow and reputation for AI agents, gated by Agent ID (name.ai) on BNB Chain. Built for the Binance Wallet x BNB Chain Agent ID Hackathon.",
+      "source": "github",
+      "source_url": "https://github.com/Josesoll/agentpact",
+      "website": null,
+      "github": "https://github.com/Josesoll/agentpact",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-25",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "agent-pulse-a5848e",
+      "name": "agent-pulse",
+      "description": "Privacy-First Self-Check Liveness Attestation & One-Line B2B Sybil-Resistance Gate (isLiveAgent) for .ai Agents on BNB Smart Chain",
+      "source": "github",
+      "source_url": "https://github.com/futursolar/agent-pulse",
+      "website": "https://futursolar.github.io/agent-pulse/",
+      "github": "https://github.com/futursolar/agent-pulse",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-25",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "eollo-9afd97",
+      "name": "eollo",
+      "description": "Eollo is a Web3 capability layer for AI agents",
+      "source": "github",
+      "source_url": "https://github.com/ZhangPeibin/eollo",
+      "website": "https://zhangpeibin.github.io/eollo/en.html",
+      "github": "https://github.com/ZhangPeibin/eollo",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-25",
       "verified": false,
       "verification": "未核验"
     }
