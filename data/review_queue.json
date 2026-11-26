@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T14:52:56.298118+00:00",
+  "generated_at": "2026-11-26T23:37:59.642583+00:00",
   "items": [
     {
       "id": "terafabai-96ff42",
@@ -3598,6 +3598,38 @@
       "token_status": "has_token",
       "chain": 56,
       "first_seen": "2026-11-26",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "si2si-916e3b",
+      "name": "Si2Si",
+      "description": "Si2Si — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": "https://si2si.store/",
+      "github": null,
+      "x": "https://x.com/si2sistore",
+      "contract_address": "0x12a3e4990215cc7ac6967a9365568ed9f787ffff",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-27",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "byte-378d30",
+      "name": "BYTE",
+      "description": "ByteCoin — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": null,
+      "github": null,
+      "x": "https://x.com/chillfindooor/status/2126003546260689257",
+      "contract_address": "0xd4787dd16f5c95239fcbd49b388e0b08e4377777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-27",
       "verified": false,
       "verification": "未核验"
     }
