@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T07:43:20.070342+00:00",
+  "generated_at": "2026-11-27T17:59:15.981102+00:00",
   "items": [
     {
       "id": "bsc-ia-scan-fb945e",
@@ -5278,6 +5278,38 @@
       "token_status": "unknown",
       "chain": 56,
       "first_seen": "2026-11-27",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "bnbu-skills-2ace29",
+      "name": "bnbu-skills",
+      "description": "AI Agent Skills for BNBU (Beijing Normal-Hong Kong Baptist University), starting with read-only BNBU iSpace CLI & skill.",
+      "source": "github",
+      "source_url": "https://github.com/1222hxy/bnbu-skills",
+      "website": null,
+      "github": "https://github.com/1222hxy/bnbu-skills",
+      "x": null,
+      "contract_address": null,
+      "token_status": "no_token",
+      "chain": 56,
+      "first_seen": "2026-11-28",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "agentwatch-de5715",
+      "name": "agentwatch",
+      "description": "AgentWatch — live board for Agent ID-gated sales on BNB Smart Chain. Registry 0x0456C9942044a538E2D32b9da6ff05d501670417 (Sourcify exact match). Built for the Binance Wallet x BNB Chain Agent ID Hackathon.",
+      "source": "github",
+      "source_url": "https://github.com/helloESA/agentwatch",
+      "website": null,
+      "github": "https://github.com/helloESA/agentwatch",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-28",
       "verified": false,
       "verification": "未核验"
     }
