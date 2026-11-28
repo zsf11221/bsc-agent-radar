@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T01:22:39.170164+00:00",
+  "generated_at": "2026-11-28T10:00:31.431245+00:00",
   "items": [
     {
       "id": "terafabai-96ff42",
@@ -4011,6 +4011,38 @@
       "github": null,
       "x": "https://x.com/reversebag/status/2126440470007922939?a=dqvybppdX8zF7ZE-xlc&s=20",
       "contract_address": "0x0c3656f0501e565e532c0bfa751662bf27c87777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-28",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "obol-cd2f0b",
+      "name": "OBOL",
+      "description": "Obol Market — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": "https://oboldot.trade",
+      "github": null,
+      "x": "https://x.com/ObolMarkets",
+      "contract_address": "0x211a538a2556e5e3f837a164f7814fa4cb587777",
+      "token_status": "has_token",
+      "chain": 56,
+      "first_seen": "2026-11-28",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "unknown-ae76df",
+      "name": "梦回梁祝",
+      "description": "梦回梁祝 — meme-rush 新币（补充源，仅看币）",
+      "source": "meme-rush",
+      "source_url": "https://www.bnbchain.org/en",
+      "website": "https://v.douyin.com/u4ZHdH3pqcs/",
+      "github": null,
+      "x": "https://x.com/i/web/status/2126519436412956856",
+      "contract_address": "0xe66eaf61cbaa418ebbe02f148b3c07772db37777",
       "token_status": "has_token",
       "chain": 56,
       "first_seen": "2026-11-28",
