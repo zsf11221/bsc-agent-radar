@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T17:59:15.981102+00:00",
+  "generated_at": "2026-11-28T01:22:39.170164+00:00",
   "items": [
     {
       "id": "bsc-ia-scan-fb945e",
@@ -5305,6 +5305,38 @@
       "source_url": "https://github.com/helloESA/agentwatch",
       "website": null,
       "github": "https://github.com/helloESA/agentwatch",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-28",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "agent-leash-b3ae4d",
+      "name": "agent-leash",
+      "description": "Give your agent a budget, not your wallet: a capped, revocable budget only its Agent ID (name.ai) can spend. BNB Chain.",
+      "source": "github",
+      "source_url": "https://github.com/yayguru/agent-leash",
+      "website": null,
+      "github": "https://github.com/yayguru/agent-leash",
+      "x": null,
+      "contract_address": null,
+      "token_status": "unknown",
+      "chain": 56,
+      "first_seen": "2026-11-28",
+      "verified": false,
+      "verification": "未核验"
+    },
+    {
+      "id": "bsc-token-safety-sentinel-d99765",
+      "name": "bsc-token-safety-sentinel",
+      "description": "BSC Token Safety Sentinel — unattended read-only agent that screens BSC tokens (Agentware 2026, Track T6 Open)",
+      "source": "github",
+      "source_url": "https://github.com/Goatleaf12/bsc-token-safety-sentinel",
+      "website": null,
+      "github": "https://github.com/Goatleaf12/bsc-token-safety-sentinel",
       "x": null,
       "contract_address": null,
       "token_status": "unknown",
